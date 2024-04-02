@@ -1,0 +1,33 @@
+.container {
+    height: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:#a5be66;
+    margin-block: 20px;
+    margin-inline:50px;
+    border-radius: 10px;
+  }
+  .container h1{
+    color: #615656;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container hr{
+    display: inline-block;
+   
+    border: none;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #f41f41;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+  
+  .skills-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

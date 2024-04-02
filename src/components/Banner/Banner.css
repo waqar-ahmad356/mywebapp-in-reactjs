@@ -1,0 +1,33 @@
+
+.banner{
+    height: 80vh;
+    background-color:#F1F5A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+    margin-inline:50px;
+    border-radius: 10px;
+    
+}
+.text{
+    font-size: 48px;
+}
+.button{
+    margin-top: 50px;
+    width: 150px;
+    padding: 20px;
+   
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #ff4141;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button:hover{
+    background: #c1f1c4;
+    color: black;
+}

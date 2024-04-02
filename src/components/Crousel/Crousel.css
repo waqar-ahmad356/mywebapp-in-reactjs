@@ -1,0 +1,87 @@
+/* Carousel.css */
+.carousel{
+    background-color:#D6DAC8;
+    height: 70vh;
+    margin-block: 20px;
+    margin-inline:50px;
+    border-radius: 10px;
+}
+.carousel-container {
+    position: relative;
+    width: 50%;
+    height: 60vh; /* Set height to 50vh */
+    margin: 0 auto;
+    overflow: hidden; /* Ensure that the overflow is hidden */
+    margin-bottom: 30px;
+    text-align: center;
+   
+  }
+  .carousel-container h1{
+    color: #615656;
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  .carousel-container hr{
+    display: inline-block;
+   
+    border: none;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #f41f41;
+    margin-top:5px;
+    margin-bottom: 20px;
+  }
+  .carousel-slide {
+    position: relative;
+    width: 100%; /* Ensure that each slide takes the full width */
+    height: 100%; /* Ensure that each slide takes the full height */
+    
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;/* Ensure the image covers the entire slide */
+    
+
+  }
+ .carousel-slide .github-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgba(60, 18, 228, 0.436);
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+
+  }
+  .carousel-slide .github-link img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  

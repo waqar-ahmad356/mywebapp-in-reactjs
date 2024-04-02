@@ -1,0 +1,27 @@
+.skill {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    flex: 0 0 calc(50% - 20px); /* Two skills per row */
+  }
+  
+  .skill:nth-child(even) {
+    margin-right: 0;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+    background-color:#ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill-progress{
+    height: 100%;
+  background-color: #114232;
+  border-radius: 10px;
+  }
+  
